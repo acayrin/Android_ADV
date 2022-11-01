@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/map_search"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/bg_menu_bg"
+        android:drawableEnd="@drawable/magnify"
+        android:drawableTint="@color/c4"
+        android:hint="Input location"
+        android:inputType="textPostalAddress"
+        android:padding="8sp"
+        android:textColor="@color/c4"
+        android:textSize="20sp" />
+</LinearLayout>

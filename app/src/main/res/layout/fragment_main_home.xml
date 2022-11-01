@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/v_home_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c1"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="24dp">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/v_fragment_greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/component_greeting" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="insert home page cuz i have no idea what to put here"
+        android:textSize="36sp"
+        android:textColor="@color/c4" />
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="18sp"
+        android:background="@drawable/bg_list_item"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_view_book_sched"
+            app:tint="@color/c4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7sp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{course_schedule}"
+                android:textColor="@color/c4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{0}"
+                android:textColor="@color/c4"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="18sp"
+        android:background="@drawable/bg_list_item"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_menu_book"
+            app:tint="@color/c4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7sp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{course_current}"
+                android:textColor="@color/c4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{0}"
+                android:textColor="@color/c4"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="18sp"
+        android:background="@drawable/bg_list_item"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_menu_news"
+            app:tint="@color/c4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7sp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{news_latest}"
+                android:textColor="@color/c4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{0}"
+                android:textColor="@color/c4"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>-->
+</LinearLayout>
